@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="NeuroGen Pro - Turn ideas into stunning AI art and compress images online for free. Ultra-HD image generation, real-time enhancement, and image size reduction."> 
+  <meta name="keywords" content="image compressor, compress image, reduce image size, image size reducer, online image compressor, jpg compressor, compress jpeg, png compressor, image compressor online free, photo compressor, AI image, NeuroGen Pro, AI art, 2K 4K 6K image, AI enhancement, photo fusion, AI tool"> 
+  <meta name="author" content="NeuroGen Team"> 
+  <title>NeuroGen Pro — AI Image Studio & Compressor</title> 
+  <!-- Google Analytics --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script> 
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXX-X');
+  </script> 
+  <!-- Google AdSense --> 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1050191751845343" crossorigin="anonymous"></script> 
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: #f5f5f9;
+        color: #222;
+    }
+    header {
+        background: #111827;
+        color: white;
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        color: oklch(0.9 0.25 280);
+    }
+    .hero {
+        padding: 3rem 1rem;
+        text-align: center;
+        background: linear-gradient(145deg, #f0f3ff, #ffffff);
+    }
+    .hero h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .hero p {
+        font-size: 1.1rem;
+        color: #444;
+        max-width: 700px;
+        margin: 0 auto 2rem;
+    }
+    .cta-btn {
+        background: oklch(0.75 0.3 300);
+        color: white;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .cta-btn:hover {
+        transform: scale(1.05);
+    }
+    section {
+        padding: 4rem 1.5rem;
+        max-width: 1100px;
+        margin: auto;
+    }
+    h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .features, .testimonials, .pricing, .faq {
+        display: grid;
+        gap: 2rem;
+    }
+    .features > div, .pricing > div, .testimonials > div {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        transition: all 0.3s ease;
+    }
+    .features > div:hover, .pricing > div:hover {
+        transform: translateY(-5px);
+    }
+    .faq-item {
+        background: #fff;
+        padding: 1rem;
+        border-left: 5px solid oklch(0.6 0.2 300);
+        border-radius: 8px;
+    }
+    .ad-section {
+        text-align: center;
+        margin: 2rem auto;
+    }
+    .loading {
+        display: none;
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,0.9);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .footer-links {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+        .features, .testimonials, .pricing, .faq {
+            grid-template-columns: 1fr;
+        }
+    }
+    @media (min-width: 768px) {
+        .features, .testimonials, .pricing {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+  </style>
+</head> 
+<body onload="showLoader()"> 
+
+  <div class="loading" id="loader">Loading NeuroGen Pro...</div> 
+
+  <header> 
+    <h1>NeuroGen Pro</h1> 
+    <p>Where Imagination Meets Artificial Intelligence</p> 
+  </header> 
+
+  <!-- Top Ad --> 
+  <div class="ad-section"> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1050191751845343" data-ad-slot="1456923998" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> 
+  </div> 
+
+  <section class="hero"> 
+    <h2>Create Ultra-HD AI Images in Seconds</h2> 
+    <p>Generate, Enhance, Fuse, and Compress images with ease using advanced AI tools and smart image compression technology.</p> 
+    <a href="img.Compressor.html" target="_blank"> 
+      <button class="cta-btn">Launch Studio</button> 
+    </a> 
+  </section> 
+
+  <section class="features"> 
+    <h3>Features</h3> 
+    <div> 
+      <strong>2K/4K/6K Generation</strong> 
+      <p>Produce high-resolution images with artistic depth and precision.</p> 
+    </div> 
+    <div> 
+      <strong>Fusion Composer</strong> 
+      <p>Upload your image and blend it with AI-generated magic.</p> 
+    </div> 
+    <div> 
+      <strong>Image Compressor</strong> 
+      <p>Reduce image file size without losing quality. Compress JPG, PNG, or JPEG easily.</p> 
+    </div> 
+  </section> 
+
+  <section class="testimonials"> 
+    <h3>What Users Say</h3> 
+    <div> 
+      <p>“NeuroGen Pro helped me create stunning concept art and compress huge images for my startup in minutes.”</p>
+      <strong>— Sarah M., Designer</strong> 
+    </div> 
+    <div> 
+      <p>“I've tried many tools, but this one is the easiest and most powerful!”</p>
+      <strong>— Omar A., Illustrator</strong> 
+    </div> 
+    <div> 
+      <p>“Incredible resolution and compression. My social media content has never looked better.”</p>
+      <strong>— Lina R., Influencer</strong> 
+    </div> 
+  </section> 
+
+  <section class="pricing"> 
+    <h3>Plans & Pricing</h3> 
+    <div> 
+      <strong>Free</strong> 
+      <p>Basic tools and low-res images. Great for starters.</p> 
+      <p><strong>$0/month</strong></p> 
+    </div> 
+    <div> 
+      <strong>Pro</strong> 
+      <p>Access 4K/6K generation, compression and fusion tools.</p> 
+      <p><strong>$9.99/month</strong></p> 
+    </div> 
+    <div> 
+      <strong>Elite</strong> 
+      <p>Unlimited generation, compression, commercial rights.</p> 
+      <p><strong>$24.99/month</strong></p> 
+    </div> 
+  </section> 
+
+  <section class="faq"> 
+    <h3>FAQ</h3> 
+    <div class="faq-item"> 
+      <strong>Can I use NeuroGen Pro on mobile?</strong> 
+      <p>Yes! It's fully responsive and optimized for mobile use.</p> 
+    </div> 
+    <div class="faq-item"> 
+      <strong>Are the images royalty-free?</strong> 
+      <p>Yes, Pro and Elite users have full commercial rights.</p> 
+    </div> 
+    <div class="faq-item"> 
+      <strong>Do I need an account?</strong> 
+      <p>Not for basic use, but Pro features require login.</p> 
+    </div> 
+  </section> 
+
+  <!-- Bottom Ad --> 
+  <div class="ad-section"> 
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1050191751845343" data-ad-slot="1456923998" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> 
+  </div> 
+
+  <footer> 
+    <p>© 2025 NeuroGen Pro. All rights reserved.</p> 
+    <div class="footer-links"> 
+      <a href="#" style="color:#bbb; margin-right: 1rem;">Privacy Policy</a> 
+      <a href="#" style="color:#bbb; margin-right: 1rem;">Terms of Use</a> 
+      <a href="mailto:support@neurogenpro.com" style="color:#bbb;">Contact</a> 
+    </div> 
+  </footer> 
+
+  <script>
+    function showLoader() {
+        const loader = document.getElementById("loader");
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 1500);
+    }
+  </script> 
+</body>
+                                     </html>
